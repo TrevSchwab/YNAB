@@ -1,5 +1,5 @@
 body {
-	background-color: orange;
+	font-family: 'Lato', Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -60,14 +60,26 @@ body {
 }
 
 .banner-container {
+	background-color: #f3f3f3;
+	color: #808080;
 	display: inline-block;
 	height: 100px;
 }
 
 .left-side {
 	height: 950px;
+	background-color: #34aebe;
 }
 
 .sub-header {
 	height: 127px;
+	background-color: #003540
+}
+
+.budget-content {
+	
+}
+
+.budget-inspector {
+	background-color: #e5f5f9
 }
