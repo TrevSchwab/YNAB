@@ -61,9 +61,13 @@ body {
 
 .banner-container {
 	display: inline-block;
+	height: 100px;
 }
 
-.logo .get-started .set-a-goal .banner-group-right {
-	float: left;
-	display: inline;
+.left-side {
+	height: 950px;
+}
+
+.sub-header {
+	height: 127px;
 }
