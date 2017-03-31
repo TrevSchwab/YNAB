@@ -19,7 +19,7 @@ body {
 	float: left;
 }
 .col-2 {
-	width: 16.66%;
+	width: 14%;
 	float: left;
 }
 .col-3 {
@@ -106,6 +106,18 @@ h2 {
 .left-side.col-2 {
 	height: 950px;
 	background-color: #34aebe;
+}
+.my-budget {
+	font-size: 1.2em;
+	color: #fff;
+	width: 100%;
+	padding: 0.5em;
+}
+.nav-main > li {
+	list-style: none;
+	padding: 0.4em 0.25em 0.4em 0em;
+	font-size: 1.125em;
+	color: #fff;
 }
 
 .sub-header {
