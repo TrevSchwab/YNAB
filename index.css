@@ -59,7 +59,7 @@ body {
 	float: left;
 }
 
-.banner-container {
+.banner-container.row {
 	background-color: #f3f3f3;
 	color: #808080;
 	display: inline-block;
@@ -73,22 +73,37 @@ body {
 	padding: 0.6rem 0.6rem 0.6rem 1.25rem;
 }
 
-.get-started.col-3 {
+.get-started.col-2 {
 	padding: 0.5rem 0.6rem;
 }
+h1 {
+	font-weight: bold;
+	color: #333;
+	font-size: 1.4em;
+	margin: 0;
+}
 
-.set-a-goal.col-5 {
+.set-a-goal.col-6 {
 	margin: 0px auto;
-	padding: 0.6rem 0.9rem;
+	padding-top: 0.6rem;
+	padding-right: 8rem;
+	padding-bottom: 0.6rem;
+	padding-left: 0.9rem;
 	background-color: #fff;
 	font-size: .85em;
+
+}
+h2 {
+	font-size: 1.15em;
+	color: #333;
+	margin: 0;
 }
 
 .banner-group-right.col-2 {
 
 }
 
-.left-side {
+.left-side.col-2 {
 	height: 950px;
 	background-color: #34aebe;
 }
@@ -103,5 +118,6 @@ body {
 }
 
 .budget-inspector {
-	background-color: #e5f5f9
+	background-color: #e5f5f9;
+	height: 664px;
 }
