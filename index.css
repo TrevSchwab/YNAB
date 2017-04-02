@@ -136,6 +136,12 @@ span#mail {
 	margin: 0.8rem 1rem 3.5rem 1rem;
 	float: right;
 }
+#user-id {
+	background-color: #1f8ca7;
+	position: fixed;
+	bottom: 0;
+	width: 14%;
+}
 
 .sub-header {
 	height: 127px;
