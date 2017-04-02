@@ -113,11 +113,28 @@ h2 {
 	width: 100%;
 	padding: 0.5em;
 }
+
+.nav-main {
+	padding: 0;
+}
 .nav-main > li {
 	list-style: none;
 	padding: 0.4em 0.25em 0.4em 0em;
 	font-size: 1.125em;
 	color: #fff;
+}
+span#mail {
+	width: 36px;
+	height: 36px;
+}
+.nav-accounts {
+	margin: 0.65rem 0.65rem 0rem 0.65rem;
+	padding: 1rem 1rem 1rem 1rem;
+	border-radius: 5px;
+}
+#add-account {
+	margin: 0.8rem 1rem 3.5rem 1rem;
+	float: right;
 }
 
 .sub-header {
