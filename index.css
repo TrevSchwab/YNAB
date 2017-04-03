@@ -76,6 +76,7 @@ body {
 .get-started.col-2 {
 	padding: 0.5rem 0.6rem;
 }
+
 h1 {
 	font-weight: bold;
 	color: #333;
@@ -91,8 +92,8 @@ h1 {
 	padding-left: 0.9rem;
 	background-color: #fff;
 	font-size: .85em;
-
 }
+
 h2 {
 	font-size: 1.15em;
 	color: #333;
@@ -107,6 +108,7 @@ h2 {
 	height: 950px;
 	background-color: #34aebe;
 }
+
 .my-budget {
 	font-size: 1.2em;
 	color: #fff;
@@ -117,25 +119,30 @@ h2 {
 .nav-main {
 	padding: 0;
 }
+
 .nav-main > li {
 	list-style: none;
 	padding: 0.4em 0.25em 0.4em 0em;
 	font-size: 1.125em;
 	color: #fff;
 }
+
 span#mail {
 	width: 36px;
 	height: 36px;
 }
+
 .nav-accounts {
 	margin: 0.65rem 0.65rem 0rem 0.65rem;
 	padding: 1rem 1rem 1rem 1rem;
 	border-radius: 5px;
 }
+
 #add-account {
 	margin: 0.8rem 1rem 3.5rem 1rem;
 	float: right;
 }
+
 #user-id {
 	background-color: #1f8ca7;
 	position: fixed;
