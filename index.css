@@ -155,9 +155,8 @@ span#mail {
 	background-color: #003540
 }
 
-.budget-table-header > li {
-	list-style: none;
-	display: inline-block;
+th {
+  text-align: left;
 }
 
 .budget-inspector {
