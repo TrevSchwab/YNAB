@@ -1,9 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 	font-family: 'Lato', Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-  height: 100%
+  height: 100%;
   width: 100%;
 }
 
@@ -27,66 +30,81 @@ body {
 .col-10,
 .col-11,
 .col-12 {
-  width: 96%;
+  float: left;
+  width: 100%;
+  padding: 0.5rem 2%;
+  min-height: 0.125rem;
 }
 
 .col-1-sm {
-  width: 4.33%;
+  padding: 0.5rem 2%;
+  width: 8.33333333%;
   float: left;
 }
 
 .col-2-sm {
-  width: 12.66%;
+  padding: 0.5rem 2%;
+  width: 16.66666667%;
   float: left;
 }
 
 .col-3-sm {
-  width: 21%;
+  padding: 0.5rem 2%;
+  width: 25%;
   float: left;
 }
 
 .col-4-sm {
-  width: 29.33%;
+  padding: 0.5rem 2%;
+  width: 33.33333333%;
   float: left;
 }
 
 .col-5-sm {
-  width: 37.66%;
+  padding: 0.5rem 2%;
+  width: 41.66666667%;
   float: left;
 }
 
 .col-6-sm {
-  width: 46%;
+  padding: 0.5rem 2%;
+  width: 50%;
   float: left;
 }
 
 .col-7-sm {
-  width: 54.33%;
+  padding: 0.5rem 2%;
+  width: 58.33333333%;
   float: left;
 }
 
 .col-8-sm {
-  width: 62.66%;
+  padding: 0.5rem 2%;
+  width: 66.66666667%;
   float: left;
 }
 
 .col-9-sm {
-  width: 71%;
+  padding: 0.5rem 2%;
+  width: 75%;
   float: left;
 }
 
 .col-10-sm {
-  width: 79.33%;
+  padding: 0.5rem 2%;
+  width: 83.33333333%;
   float: left;
 }
 
 .col-11-sm {
-  width: 87.66%;
+  padding: 0.5rem 2%;
+  width: 91.66666667%;
   float: left;
 }
 
 .col-12-sm {
-  width: 96%;
+  padding: 0.5rem 2%;
+  width: 100%;
   float: left;
 }
 
@@ -259,69 +277,56 @@ th {
 	/*height: 664px;*/
 }
 
-@media only screen and (min-width: 33.75em) {  /* 540px */
-  .container {
-    width: 80%;
-  }
-}
-
 @media only screen and (min-width: 45em) {  /* 720px */
   .col-1 {
-    width: 4.33%;
+    width: 8.33333333%;
   }
 
   .col-2 {
-    width: 12.66%;
+    width: 16.66666667%;
   }
 
   .col-3 {
-    width: 21%;
+    width: 25%;
   }
 
   .col-4 {
-    width: 29.33%;
+    width: 33.33333333%;
   }
 
   .col-5 {
-    width: 37.66%;
+    width: 41.66666667%;
   }
 
   .col-6 {
-    width: 46%;
+    width: 50%;
   }
 
   .col-7 {
-    width: 54.33%;
+    width: 58.33333333%;
   }
 
   .col-8 {
-    width: 62.66%;
+    width: 66.66666667%;
   }
 
   .col-9 {
-    width: 71%;
+    width: 75%;
   }
 
   .col-10 {
-    width: 79.33%;
+    width: 83.33333333%;
   }
 
   .col-11 {
-    width: 87.66%;
+    width: 91.66666667%;
   }
 
   .col-12 {
-    width: 96%;
+    width: 100%;
   }
 
   .hidden-sm {
     display: block;
-  }
-}
-
-@media only screen and (min-width: 60em) { /* 960px */
-  .container {
-    width: 75%;
-    max-width: 60rem;
   }
 }
