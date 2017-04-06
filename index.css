@@ -114,72 +114,23 @@ body {
   clear: both;
 }
 
-/*.row {
-	width: 100%;
-	clear: both;
-}
-.col-1 {
-	width: 8.33%;
-	float: left;
-}
-.col-2 {
-	width: 14%;
-	float: left;
-}
-.col-3 {
-	width: 25%;
-	float: left;
-}
-.col-4 {
-	width: 33.33%;
-	float: left;
-}
-.col-5 {
-	width: 41.66%;
-	float: left;
-}
-.col-6 {
-	width: 50%;
-	float: left;
-}
-.col-7 {
-	width: 58.33%;
-	float: left;
-}
-.col-8 {
-	width: 66.66%;
-	float: left;
-}
-.col-9 {
-	width: 75%;
-	float: left;
-}
-.col-10 {
-	width: 83.33%;
-	float: left;
-}
-.col-11 {
-	width: 91.66%;
-	float: left;
-}*/
-
 .banner-container.row {
 	background-color: #f3f3f3;
 	color: #808080;
 	display: inline-block;
-	/*height: 80px;*/
+	height: 5em;
 	padding: 0.6rem 0;
 }
 
-.logo.col-1.sm {
-	/*height: 60px;
-	width: 60px;*/
+.logo.col-1 {
+	height: 4em
+	width: 4em;
 	padding: 0.6rem 0.6rem 0.6rem 1.25rem;
   display: inline-block;
   margin: 0px;
 }
 
-.get-started.col-2-sm {
+.get-started.col-2 {
 	padding: 0.5rem 0.6rem;
   display: inline-block;
 }
@@ -191,7 +142,7 @@ h1 {
 	margin: 0;
 }
 
-.set-a-goal.col-6-sm {
+.set-a-goal.col-6 {
 	margin: 0px auto;
 	padding-top: 0.6rem;
 	padding-right: 8rem;
@@ -207,7 +158,7 @@ h2 {
 	margin: 0;
 }
 
-.banner-group-right.col-2-sm {
+.banner-group-right.col-2 {
 
 }
 
@@ -234,15 +185,10 @@ h2 {
 	color: #fff;
 }
 
-span#mail {
-	width: 36px;
-	height: 36px;
-}
-
 .nav-accounts {
 	margin: 0.65rem 0.65rem 0rem 0.65rem;
 	padding: 1rem 1rem 1rem 1rem;
-	border-radius: 5px;
+	border-radius: .313em;
 }
 
 #add-account {
@@ -264,8 +210,8 @@ span#mail {
 
 table, th, td {
   font-size: 1em;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-top: .063em solid grey;
+  border-bottom: .063em solid grey;
 }
 
 th {
@@ -275,7 +221,6 @@ th {
 
 .budget-inspector {
 	background-color: #e5f5f9;
-	/*height: 664px;*/
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */
