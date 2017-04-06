@@ -211,9 +211,9 @@ h2 {
 
 }
 
-.left-side.col-2-sm {
-	/*height: 950px;*/
+.left-side.col-2 {
 	background-color: #34aebe;
+  padding: 0;
 }
 
 .my-budget {
@@ -254,10 +254,11 @@ span#mail {
 	background-color: #1f8ca7;
 	position: fixed;
 	bottom: 0;
+  width: 100%;
 }
 
 .sub-header {
-	height: 127px;
+	height: 8em;
 	background-color: #003540
 }
 
