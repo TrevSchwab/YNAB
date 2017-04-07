@@ -316,7 +316,110 @@ th {
 .budget-inspector {
 	background-color: #e5f5f9;
   border-top: .063em solid grey;
+  padding: 1em;
 }
+
+.total-budgeted {
+  text-align: center;
+}
+
+.total-activity {
+  text-align: center;
+}
+
+.total-available {
+  text-align: center;
+}
+
+.total-inflows {
+  text-align: center;
+}
+
+.quick-budget {
+  text-align: center;
+}
+
+h3 {
+  font-size: .700em;
+  font-weight: 900;
+  color: #003440;
+  margin-bottom: .5em;
+}
+
+.total-budgeted-span {
+  font-size: 1.2em;
+  font-weight: 900;
+  color: #003440;
+}
+
+.total-activity-span {
+  font-size: 1.2em;
+  font-weight: 900;
+  color: #003440;
+}
+
+.total-available-span {
+  font-size: 1.2em;
+  font-weight: 900;
+  color: #003440;
+}
+
+.total-inflows-span {
+  font-size: 1.2em;
+  font-weight: 900;
+  color: #003440;
+}
+
+.underfunded {
+  background-color: rgba(0,155,194,0.1);
+  margin-bottom: .125em;
+  color: #009cc2;
+}
+
+.underfunded.span {
+  font-weight: 700;
+}
+
+.budgeted-last-month {
+  background-color: rgba(0,155,194,0.1);
+  margin-bottom: .125em;
+  color: #009cc2;
+}
+
+.budgeted-last-month.span {
+  font-weight: 700;
+}
+
+.spent-last-month {
+  background-color: rgba(0,155,194,0.1);
+  margin-bottom: .125em;
+  color: #009cc2;
+}
+
+.spent-last-month.span {
+  font-weight: 700;
+}
+
+.average-budgeted {
+  background-color: rgba(0,155,194,0.1);
+  margin-bottom: .125em;
+  color: #009cc2;
+}
+
+.average-budgeted.span {
+  font-weight: 700;
+}
+
+.average-spent {
+  background-color: rgba(0,155,194,0.1);
+  color: #009cc2;
+}
+
+.average-spent.span {
+  font-weight: 700;
+}
+
+
 
 @media only screen and (min-width: 45em) {  /* 720px */
   .col-1 {
