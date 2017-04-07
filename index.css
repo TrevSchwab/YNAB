@@ -214,7 +214,7 @@ h2 {
   display: inline-block;
   text-align: center;
   padding: .6em;
-  width: 25%;
+  width: 30%;
 }
 
 .enter-a-note {
@@ -227,7 +227,7 @@ h2 {
   display: inline-block;
   text-align: center;
   padding: .6em;
-  width:  35%;
+  width:  50%;
 }
 
 .budget-header-totals {
@@ -260,6 +260,7 @@ h2 {
 .budget-header-totals-details-values {
   display: inline-block;
   float: left;
+  padding-right: .5em;
 }
 
 .budget-header-totals-details-names {
@@ -267,12 +268,26 @@ h2 {
   color: #fff;
   font-size: .8em;
   font-weight: 300;
+  text-align: left;
 }
 
 
 .age-of-money {
   display: inline-block;
   padding: .6em;
+}
+
+.question-marks {
+  color: #588697;
+  font-size: 2em;
+  text-align: center;
+}
+
+.age-of-money-text {
+  color: #fff;
+  font-size: .875em;
+  font-style: italic;
+  text-align: center;
 }
 
 .category-group {
