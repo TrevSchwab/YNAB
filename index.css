@@ -201,14 +201,13 @@ h2 {
 
 #user-id {
 	background-color: #1f8ca7;
-	position: fixed;
-	bottom: 0;
   width: 100%;
 }
 
 .sub-header {
 	height: 8em;
-	background-color: #003540
+	background-color: #003540;
+  padding: 0;
 }
 
 .date {
@@ -222,6 +221,15 @@ h2 {
 .age-of-money {
   display: inline-block;
 }
+
+.category-group {
+  background-color: white;
+}
+
+.budget-content.col-7 {
+  padding: 0;
+}
+
 table, th, td {
   font-size: 1em;
   border-top: .063em solid grey;
@@ -235,6 +243,7 @@ th {
 
 .budget-inspector {
 	background-color: #e5f5f9;
+  border-top: .063em solid grey;
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */
