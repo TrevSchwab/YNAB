@@ -217,6 +217,12 @@ h2 {
   padding: .6em;
 }
 
+.enter-a-note {
+    color: #598797;
+    font-size: .875em;
+    font-style: italic;
+}
+
 .budget-totals {
   display: inline-block;
   width: 40%;
