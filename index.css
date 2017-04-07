@@ -212,18 +212,26 @@ h2 {
 
 .date {
   display: inline-block;
+  width: 30%;
+  text-align: center;
+  padding: .6em;
 }
 
 .budget-totals {
   display: inline-block;
+  width: 40%;
+  text-align: center;
+  padding: .6em;
 }
 
 .age-of-money {
   display: inline-block;
+  padding: .6em;
 }
 
 .category-group {
   background-color: white;
+  font-size: .8em;
 }
 
 .budget-content.col-7 {
