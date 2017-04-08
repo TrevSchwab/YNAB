@@ -221,9 +221,9 @@ h2 {
 }
 
 .enter-a-note {
-    color: #598797;
-    font-size: .875em;
-    font-style: italic;
+  color: #598797;
+  font-size: .875em;
+  font-style: italic;
 }
 
 .budget-totals {
@@ -278,6 +278,7 @@ h2 {
 .age-of-money {
   display: inline-block;
   padding: .6em;
+  width: 10%;
 }
 
 .question-marks {
