@@ -152,6 +152,7 @@ h1 {
 	background-color: #fff;
 	font-size: .85em;
   display: inline-block;
+  vertical-align: inherit;
 }
 
 h2 {
@@ -290,9 +291,19 @@ h2 {
   text-align: center;
 }
 
-.category-group {
+.category-group-toolbar {
   background-color: white;
   font-size: .8em;
+  padding: .35em 0 .40em .35em;
+}
+
+.category-button-group {
+  padding: .3em .5em .3em .313em;
+  display: inline-block;
+}
+
+.category-group {
+  display: inline-block;
 }
 
 .budget-content.col-7 {
