@@ -128,14 +128,12 @@ body {
 	padding: 0.6rem 0.6rem 0.6rem 1.25rem;
   display: inline-block;
   margin: 0px;
-  width: 5%;
 }
 
 .get-started {
 	padding: 0.5rem 0.6rem;
   display: inline-block;
   font-size: .85rem;
-  width: 10%;
 }
 
 h1 {
@@ -154,7 +152,6 @@ h1 {
 	background-color: #fff;
 	font-size: .85em;
   display: inline-block;
-  width: 50%;
 }
 
 h2 {
@@ -165,7 +162,6 @@ h2 {
 
 .banner-right {
   display: inline-block;
-
 }
 
 .left-side.col-2 {
