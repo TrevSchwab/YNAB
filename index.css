@@ -320,6 +320,10 @@ h2 {
   padding: 0;
 }
 
+.budget-content .selected {
+  background: #005a6e;
+}
+
 table, th, td {
   font-size: 1em;
   border-top: .063em solid grey;
