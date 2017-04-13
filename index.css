@@ -327,6 +327,7 @@ h2 {
 }
 
 .sub-category:hover td {
+  cursor: pointer;
   border-top: 1px solid #b6c1cc;
 }
 
