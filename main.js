@@ -1,5 +1,6 @@
+const section = document.querySelectorAll('.budget-content input[type="checkbox"]');
 const budgetCheckbox = document.querySelectorAll('.budget-content input[type="checkbox"]');
-const budgetRow = document.querySelectorAll('.sub-category')
+const budgetRow = document.querySelectorAll('.sub-category');
 
 function selectCheckbox() {
   if (this.checked) {
@@ -28,3 +29,20 @@ budgetCheckbox.forEach((item) => {
 budgetRow.forEach((item) => {
   item.addEventListener('click', selectRow);
 });
+
+
+
+
+function selectSection() {
+  if (this.checked) {
+    document.getElementByClassName('immediate').checked;
+  } else {
+    display: "none";
+    console.log('you close!');
+  }
+}
+
+section.forEach((item) => {
+  item.addEventListener('change', selectSection);
+});
+
