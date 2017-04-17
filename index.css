@@ -326,8 +326,23 @@ h2 {
   display: inline-block;
 }
 
-.budget-content.col-7 {
+.budget-content {
   padding: 0;
+}
+
+.budget-content td,
+.budget-content tr {
+  border: none;
+  border-top: 1px solid black;
+}
+
+.sub-category:hover td {
+  cursor: pointer;
+  border-top: 1px solid #b6c1cc;
+}
+
+.budget-content .selected {
+  background: #005a6e;
 }
 
 th, td {
