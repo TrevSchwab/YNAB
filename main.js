@@ -35,14 +35,18 @@ budgetRow.forEach((item) => {
 
 function selectSection() {
   if (this.checked) {
-    document.getElementByClassName('immediate').checked;
+    this.closest("tbody").querySelectorAll('.sub-category input[type="checkbox"]').forEach((item) => {
+      item.checked=true;
+
+    });
   } else {
-    display: "none";
-    console.log('you close!');
+     this.closest("tbody").querySelectorAll('.sub-category input[type="checkbox"]').forEach((item) => {
+      item.checked=false;
+    });
   }
 }
 
 section.forEach((item) => {
-  item.addEventListener('change', selectSection);
+  item.addEventListener('change', selectSection)
 });
 
