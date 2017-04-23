@@ -1,4 +1,4 @@
-const section = document.querySelectorAll('.budget-content input[type="checkbox"]');
+const section = document.querySelectorAll('.category-header input[type="checkbox"]');
 const budgetCheckbox = document.querySelectorAll('.budget-content input[type="checkbox"]');
 const budgetRow = document.querySelectorAll('.sub-category');
 
@@ -34,16 +34,11 @@ budgetRow.forEach((item) => {
 
 
 function selectSection() {
-  if (this.checked) {
-    this.closest("tbody").querySelectorAll('.sub-category input[type="checkbox"]').forEach((item) => {
-      item.checked=true;
 
+    this.closest("tbody").querySelectorAll('.sub-category input[type="checkbox"]').forEach((item) => {
+      item.checked=this.checked;
+      this.checked!=item.checked;
     });
-  } else {
-     this.closest("tbody").querySelectorAll('.sub-category input[type="checkbox"]').forEach((item) => {
-      item.checked=false;
-    });
-  }
 }
 
 section.forEach((item) => {
