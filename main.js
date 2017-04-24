@@ -1,5 +1,5 @@
 const selectAll = document.querySelector('#selectAll');
-const minimize = document.querySelectorAll('.minimize');
+const minimize = document.querySelectorAll('.budget-content input[type="button"]');
 const section = document.querySelectorAll('.category-header input[type="checkbox"]');
 const budgetCheckbox = document.querySelectorAll('.budget-content input[type="checkbox"]');
 const budgetRow = document.querySelectorAll('.sub-category');
@@ -55,9 +55,24 @@ selectAll.addEventListener('change', allBoxes);
 
 
 
- if(document.getElementsByClassName("hidethis").style.display=='none' ){
-   document.getElementsByClassName("hidethis").style.display = '.sub-category';
- }else{
-   document.getElementsByClassName("hidethis").style.display = 'none';
- }
+/*function toggle() {
+  if (this.click) {
+    this.closest('tbody').classList.remove('.sub-category');
+  } else {
+  this.closest('tbody').classList.add('.sub-category');
+  }
+}*/
 
+function toggle() {
+  this.closest("tbody").querySelectorAll('.sub-category').forEach((item) => {
+    if (item.style.display === "none") {
+      item.style.display = "table-row";
+    } else {
+      item.style.display = "none";
+    }
+  });
+}
+
+minimize.forEach((item) => {
+item.addEventListener('click', toggle);
+});
