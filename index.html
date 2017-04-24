@@ -151,62 +151,63 @@
 			<table style="width:100%">
         <tbody>
           <tr class="category-header">
-            <th><input type="checkbox"></th>
+            <th><input type="checkbox" id=selectAll></th>
             <th>CATEGORY</th>
             <th>BUDGETED</th>
             <th>ACTIVITY</th>
             <th>AVAILABLE</th>
           </tr>
           <tr class="category-header">
-            <th><input type="checkbox" id="immediate-obligations"></th>
+            <th><input type="checkbox"></th>
+            <th><input type="button" onClick = "toggle();"></th>
             <th>Immediate Obligations</th>
             <th>$0.00</th>
             <th>$0.00</th>
             <th>$0.00</th>
           </tr>
-          <tr class="sub-category">
-            <td><input type="checkbox" class="immediate"></td>
+          <tr class="sub-category" class="hidethis">
+            <td><input type="checkbox"></td>
             <td>Rent/Mortgage</td>
             <td>$0.00</td>
             <td>$0.00</td>
             <td>$0.00</td>
           </tr>
-          <tr class="sub-category">
-            <td><input type="checkbox" class="immediate"></td>
+          <tr class="sub-category" class="hidethis" style="display:none;">
+            <td><input type="checkbox"></td>
             <td>Electric</td>
             <td>$0.00</td>
             <td>$0.00</td>
             <td>$0.00</td>
           </tr>
-          <tr class="sub-category">
+          <tr class="sub-category" class="hidethis">
             <td><input type="checkbox"></td>
             <td>Water</td>
             <td>$0.00</td>
             <td>$0.00</td>
             <td>$0.00</td>
           </tr>
-          <tr class="sub-category">
+          <tr class="sub-category" class="hidethis">
             <td><input type="checkbox"></td>
             <td>Internet</td>
             <td>$0.00</td>
             <td>$0.00</td>
             <td>$0.00</td>
           </tr>
-          <tr class="sub-category">
+          <tr class="sub-category" class="hidethis">
             <td><input type="checkbox"></td>
             <td>Groceries</td>
             <td>$0.00</td>
             <td>$0.00</td>
             <td>$0.00</td>
           </tr>
-          <tr class="sub-category">
+          <tr class="sub-category" class="hidethis">
             <td><input type="checkbox"></td>
             <td>Transportation</td>
             <td>$0.00</td>
             <td>$0.00</td>
             <td>$0.00</td>
           </tr>
-          <tr class="sub-category">
+          <tr class="sub-category" class="hidethis">
             <td><input type="checkbox"></td>
             <td>Interest & Fees</td>
             <td>$0.00</td>

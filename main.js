@@ -1,3 +1,5 @@
+const selectAll = document.querySelector('#selectAll');
+const minimize = document.querySelectorAll('.minimize');
 const section = document.querySelectorAll('.category-header input[type="checkbox"]');
 const budgetCheckbox = document.querySelectorAll('.budget-content input[type="checkbox"]');
 const budgetRow = document.querySelectorAll('.sub-category');
@@ -31,17 +33,31 @@ budgetRow.forEach((item) => {
 });
 
 
-
-
 function selectSection() {
 
     this.closest("tbody").querySelectorAll('.sub-category input[type="checkbox"]').forEach((item) => {
       item.checked=this.checked;
-      this.checked!=item.checked;
     });
 }
 
 section.forEach((item) => {
   item.addEventListener('change', selectSection)
 });
+
+
+function allBoxes() {
+  this.closest("table").querySelectorAll('input[type="checkbox"]').forEach((item) => {
+    item.checked=this.checked;
+  });
+}
+
+selectAll.addEventListener('change', allBoxes);
+
+
+
+ if(document.getElementsByClassName("hidethis").style.display=='none' ){
+   document.getElementsByClassName("hidethis").style.display = '.sub-category';
+ }else{
+   document.getElementsByClassName("hidethis").style.display = 'none';
+ }
 
