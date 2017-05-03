@@ -124,11 +124,10 @@ body {
   clear: both;
 }
 
-.banner-container.row {
+.banner-container {
 	background-color: #f3f3f3;
 	color: #808080;
 	display: inline-block;
-	height: 5em;
 	padding: 0.6rem 0;
 }
 
@@ -177,6 +176,7 @@ h2 {
 
 .left-side.col-2 {
 	background-color: #34aebe;
+  position: relative;
   padding: 0;
 }
 
@@ -222,6 +222,8 @@ h2 {
 #user-id {
 	background-color: #1f8ca7;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .sub-header {
@@ -515,5 +517,19 @@ h3 {
 
   .hidden-sm {
     display: block;
+  }
+
+  .budget-inspector {
+    height: calc(100vh - 128px);
+  }
+
+  .budget-content {
+    height: calc(100vh - 128px);
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+
+  .left-side {
+    height: 100vh;
   }
 }
