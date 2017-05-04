@@ -1,4 +1,6 @@
-const section = document.querySelectorAll('.budget-content input[type="checkbox"]');
+const selectAll = document.querySelector('#selectAll');
+const minimize = document.querySelectorAll('.budget-content input[type="button"]');
+const section = document.querySelectorAll('.category-header input[type="checkbox"]');
 const budgetCheckbox = document.querySelectorAll('.budget-content input[type="checkbox"]');
 const budgetRow = document.querySelectorAll('.sub-category');
 
@@ -31,18 +33,46 @@ budgetRow.forEach((item) => {
 });
 
 
-
-
 function selectSection() {
-  if (this.checked) {
-    document.getElementByClassName('immediate').checked;
-  } else {
-    display: "none";
-    console.log('you close!');
-  }
+
+    this.closest("tbody").querySelectorAll('.sub-category input[type="checkbox"]').forEach((item) => {
+      item.checked=this.checked;
+    });
 }
 
 section.forEach((item) => {
-  item.addEventListener('change', selectSection);
+  item.addEventListener('change', selectSection)
 });
 
+
+function allBoxes() {
+  this.closest("table").querySelectorAll('input[type="checkbox"]').forEach((item) => {
+    item.checked=this.checked;
+  });
+}
+
+selectAll.addEventListener('change', allBoxes);
+
+
+
+/*function toggle() {
+  if (this.click) {
+    this.closest('tbody').classList.remove('.sub-category');
+  } else {
+  this.closest('tbody').classList.add('.sub-category');
+  }
+}*/
+
+function toggle() {
+  this.closest("tbody").querySelectorAll('.sub-category').forEach((item) => {
+    if (item.style.display === "none") {
+      item.style.display = "table-row";
+    } else {
+      item.style.display = "none";
+    }
+  });
+}
+
+minimize.forEach((item) => {
+item.addEventListener('click', toggle);
+});
