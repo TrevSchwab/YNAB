@@ -132,7 +132,7 @@ body {
 }
 
 .logo {
-	height: 4em
+	height: 4em;
 	width: 4em;
 	padding: 0.6rem 0.6rem 0.6rem 1.25rem;
   display: inline-block;
