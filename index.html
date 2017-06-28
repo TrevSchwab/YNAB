@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="container"><!--everything on page-->
-		<header class="banner-container row">
+		<aside class="banner-container row">
 			<div class="logo">
 				LOGO
 			</div>
@@ -30,122 +30,123 @@
 			<div class="banner-right">
 				BANNER RIGHT
 			</div>
-		</header>
+		</aside>
 
-  <div class="left-container">
-  	<div class="left-side col-2">
-  			<div class="my-budget">
-  				My Budget
-  			</div>
-  			<ul class="nav-main">
-  				<li id="budget">
-  					<span id="mail">#</span>
-  					Budget
-  				</li>
-  				<li id="reports">
-  					<span id="graph">#</span>
-  					Reports
-  				</li>
-  				<li id="all-accounts">
-  					<span id="pillars">#</span>
-  					All Acounts
-  				</li>
-  			</ul>
-  			<div class="nav-accounts">
-  				<h2>No Accounts</h2>
-          <br>
-  				<p>
-  				You can't budget without adding accounts to YNAB first.  How about adding one now?
-  				</p>
-  			</div>
-  			<button id="add-account">
-  				Add Account
-  			</button>
-  			<button id="user-id">
-  				email@gmail.com
-  			</button>
-  		</div>
-    </div>
+    <div class="row main-content">
+      <nav class="left-container col-2" aria-label="site">
+        <div class="left-side">
+    			<div class="my-budget">
+    				My Budget
+    			</div>
+    			<ul class="nav-main">
+    				<li id="budget">
+    					<span id="mail">#</span>
+    					Budget
+    				</li>
+    				<li id="reports">
+    					<span id="graph">#</span>
+    					Reports
+    				</li>
+    				<li id="all-accounts">
+    					<span id="pillars">#</span>
+    					All Acounts
+    				</li>
+    			</ul>
+    			<div class="nav-accounts">
+    				<h2>No Accounts</h2>
+            <br>
+    				<p>
+    				You can't budget without adding accounts to YNAB first.  How about adding one now?
+    				</p>
+    			</div>
+    			<button id="add-account">
+    				Add Account
+    			</button>
+    			<button id="user-id">
+    				email@gmail.com
+    			</button>
+    		</div>
+      </nav>
 
-		<div class="sub-header col-10">
-			<div class="date">
-        <button class="arrow-left">
-          <
-        </button>
-        <button class="calendar-date">
-				  Apr 2017
-        </button>
-        <button class="arrow-right">
-          >
-        </button>
-        <div class="enter-a-note">
-          Enter a note...
-        </div>
-			</div>
-			<div class="budget-totals">
-				<div class="budget-header-totals">
-          <div class="to-be-budgeted-total">
-            $0.00
+  		<div class="sub-header col-10">
+  			<nav class="date" aria-label="page">
+          <button class="arrow-left">
+            <
+          </button>
+          <button class="calendar-date">
+  				  Apr 2017
+          </button>
+          <button class="arrow-right">
+            >
+          </button>
+          <div class="enter-a-note">
+            Enter a note...
           </div>
-          <div class="to-be-budgeted">
-            To be Budgeted
-          </div>
-        </div>
-        <div class="budget-header-totals-details">
-            <div class="budget-header-totals-details-values">
-              <div class="user-data currency zero">
-                +$0.00
-              </div>
-              <div class="user-data currency zero">
-                -$0.00
-              </div>
-              <div class="user-data currency zero">
-                -$0.00
-              </div>
-              <div class="user-data currency zero">
-                -$0.00
-              </div>
+  			</nav>
+  			<div class="budget-totals">
+  				<div class="budget-header-totals">
+            <div class="to-be-budgeted-total">
+              $0.00
             </div>
-            <div class="budget-header-totals-details-names">
-              <div class="budget-header-totals-cell-name">
-                Funds for Apr
-              </div>
-              <div class="budget-header-totals-cell-name">
-                Overspent in Mar
-              </div>
-              <div class="budget-header-totals-cell-name">
-                Budgeted in Apr
-              </div>
-              <div class="budget-header-totals-cell-name">
-                Budgeted in Future
-              </div>
+            <div class="to-be-budgeted">
+              To be Budgeted
             </div>
           </div>
-        </div>
+          <div class="budget-header-totals-details">
+              <div class="budget-header-totals-details-values">
+                <div class="user-data currency zero">
+                  +$0.00
+                </div>
+                <div class="user-data currency zero">
+                  -$0.00
+                </div>
+                <div class="user-data currency zero">
+                  -$0.00
+                </div>
+                <div class="user-data currency zero">
+                  -$0.00
+                </div>
+              </div>
+              <div class="budget-header-totals-details-names">
+                <div class="budget-header-totals-cell-name">
+                  Funds for Apr
+                </div>
+                <div class="budget-header-totals-cell-name">
+                  Overspent in Mar
+                </div>
+                <div class="budget-header-totals-cell-name">
+                  Budgeted in Apr
+                </div>
+                <div class="budget-header-totals-cell-name">
+                  Budgeted in Future
+                </div>
+              </div>
+            </div>
+          </div>
 
-			<div class="age-of-money">
-        <div class="question-marks">
-          ???
-        </div>
-				<div class="age-of-money-text">
-          Age of Money
-        </div>
-			</div>
+  			<div class="age-of-money">
+          <div class="question-marks">
+            ???
+          </div>
+  				<div class="age-of-money-text">
+            Age of Money
+          </div>
+  			</div>
 
-      <div class="category-group-toolbar">
-        <div class="category-button-group">
-        <button class="add-category">
-          +
-        <div class="category-group">
-          Category Group
+        <div class="category-group-toolbar">
+          <div class="category-button-group">
+          <button class="add-category">
+            +
+          <div class="category-group">
+            Category Group
+          </div>
+          </button>
+          </div>
+          <span class="Undo-Redo">
+            #Undo #Redo
+          </span>
         </div>
-        </button>
-        </div>
-        <span class="Undo-Redo">
-          #Undo #Redo
-        </span>
       </div>
-    </div>
 
 		<div class="budget-content col-7">
 			<table style="width:100%">
@@ -401,70 +402,71 @@
       </table>
     </div>
 
-		<div class="budget-inspector col-3">
-			<div class="total-budgeted">
-        <h3>TOTAL BUDGETED</h3>
-        <span class="total-budgeted-span">
-          $0.00
-        </span>
-        <hr>
-      </div>
-      <div class="total-activity">
-        <h3>TOTAL ACTIVITY</h3>
-        <span class="total-activity-span">
-          $0.00
-        </span>
-        <hr>
-      </div>
-      <div class="total-available">
-        <h3>TOTAL AVAILABLE</h3>
-        <span class="total-available-span">
-          $0.00
-        </span>
-        <hr>
-      </div>
-      <div class="total-inflows">
-        <h3>TOTAL INFLOWS</h3>
-        <span class="total-inflows-span">
-          $0.00
-        </span>
-        <hr>
-      </div>
-      <div class="quick-budget">
-        <h3>QUICK BUDGET</h3>
-        <div class="underfunded">
-          Underfunded:
-          <span class="underfunded span">
+  		<section class="budget-inspector col-3">
+  			<div class="total-budgeted">
+          <h3>TOTAL BUDGETED</h3>
+          <span class="total-budgeted-span">
             $0.00
           </span>
+          <hr>
         </div>
-        <div class="budgeted-last-month">
-          Budgeted Last Month:
-          <span class="budgeted-last-month span">
+        <div class="total-activity">
+          <h3>TOTAL ACTIVITY</h3>
+          <span class="total-activity-span">
             $0.00
           </span>
+          <hr>
         </div>
-        <div class="spent-last-month">
-          Spent Last Month:
-          <span class="spent-last-month span">
+        <div class="total-available">
+          <h3>TOTAL AVAILABLE</h3>
+          <span class="total-available-span">
             $0.00
           </span>
+          <hr>
         </div>
-        <div class="average-budgeted">
-          Average Budgeted:
-          <span class="average-budgeted span">
+        <div class="total-inflows">
+          <h3>TOTAL INFLOWS</h3>
+          <span class="total-inflows-span">
             $0.00
           </span>
+          <hr>
         </div>
-        <div class="average-spent">
-          Average Spent:
-          <span class="average-spent span">
-            $0.00
-          </span>
-        </div>
+        <div class="quick-budget">
+          <h3>QUICK BUDGET</h3>
+          <div class="underfunded">
+            Underfunded:
+            <span class="underfunded span">
+              $0.00
+            </span>
+          </div>
+          <div class="budgeted-last-month">
+            Budgeted Last Month:
+            <span class="budgeted-last-month span">
+              $0.00
+            </span>
+          </div>
+          <div class="spent-last-month">
+            Spent Last Month:
+            <span class="spent-last-month span">
+              $0.00
+            </span>
+          </div>
+          <div class="average-budgeted">
+            Average Budgeted:
+            <span class="average-budgeted span">
+              $0.00
+            </span>
+          </div>
+          <div class="average-spent">
+            Average Spent:
+            <span class="average-spent span">
+              $0.00
+            </span>
+          </div>
 
-      </div>
-		</div>
+        </div>
+  		</section>
+    </div>
 	</div><!--closing "container" div -->
   <script type="text/javascript" src="./main.js"></script>
 </body>
