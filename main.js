@@ -6,9 +6,9 @@ const budgetRow = document.querySelectorAll('.sub-category');
 
 function selectCheckbox() {
   if (this.checked) {
-    this.closest('tr').classList.add('selected');
+    this.closest('tr').classList.add('selected').selectRow();
   } else {
-  this.closest('tr').classList.remove('selected');
+  this.closest('tr').classList.remove('selected').selectRow();
   }
 }
 
