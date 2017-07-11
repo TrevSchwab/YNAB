@@ -3,12 +3,25 @@ const minimize = document.querySelectorAll('.budget-content input[type="button"]
 const section = document.querySelectorAll('.category-header input[type="checkbox"]');
 const budgetCheckbox = document.querySelectorAll('.budget-content input[type="checkbox"]');
 const budgetRow = document.querySelectorAll('.sub-category');
+const emailButton = document.querySelector('#user-id');
+
+
+function highlight() {
+  if (this.click) {
+    this.style.borderColor="blue";
+  }
+}
+emailButton.addEventListener('mousemove', highlight);
+
+
+
+
 
 function selectCheckbox() {
   if (this.checked) {
-    this.closest('tr').classList.add('selected').selectRow();
+    this.closest('tr').classList.add('selected');
   } else {
-  this.closest('tr').classList.remove('selected').selectRow();
+  this.closest('tr').classList.remove('selected');
   }
 }
 
