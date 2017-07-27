@@ -45,13 +45,21 @@ budgetRow.forEach((item) => {
 
 function selectSection() {
 
-    this.closest("tbody").querySelectorAll('.sub-category input[type="checkbox"]').forEach((item) => {
+    this.closest("tbody").querySelectorAll('.sub-category').forEach((item) => {
       item.checked=this.checked;
+
+
 
       if (this.checked) {
         item.classList.add('selected');
+        item.closest("tbody").querySelectorAll('input[type="checkbox"]').forEach((box) => {
+          box.checked=item.checked;
+        });
       } else {
         item.classList.remove('selected');
+        item.closest("tbody").querySelectorAll('input[type="checkbox"]').forEach((box) => {
+          box.checked= item.checked;
+        });
       }
     });
 }
@@ -86,4 +94,15 @@ item.addEventListener('click', toggle);
 
 
 
+
+const addAcountMenu = document.querySelector('#add-account');
+
+
+function subMenu() {
+  if (this.classList == "") {
+    this.classList.add('subMenu');
+  } else {
+    this.classList.remove('subMenu');
+  }
+}
 
