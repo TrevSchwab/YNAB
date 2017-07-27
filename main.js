@@ -15,10 +15,6 @@ function highlight() {
 }
 emailButton.addEventListener('mouseover', highlight);
 
-
-
-
-
 function selectCheckbox() {
   if (this.checked) {
     this.closest('tr').classList.add('selected');
@@ -47,18 +43,22 @@ budgetRow.forEach((item) => {
   item.addEventListener('click', selectRow);
 });
 
-
 function selectSection() {
 
     this.closest("tbody").querySelectorAll('.sub-category input[type="checkbox"]').forEach((item) => {
       item.checked=this.checked;
+
+      if (this.checked) {
+        item.classList.add('selected');
+      } else {
+        item.classList.remove('selected');
+      }
     });
 }
 
 section.forEach((item) => {
   item.addEventListener('change', selectSection)
 });
-
 
 function allBoxes() {
   this.closest("table").querySelectorAll('input[type="checkbox"]').forEach((item) => {
@@ -67,16 +67,6 @@ function allBoxes() {
 }
 
 selectAll.addEventListener('change', allBoxes);
-
-
-
-/*function toggle() {
-  if (this.click) {
-    this.closest('tbody').classList.remove('.sub-category');
-  } else {
-  this.closest('tbody').classList.add('.sub-category');
-  }
-}*/
 
 function toggle() {
   this.closest("tbody").querySelectorAll('.sub-category').forEach((item) => {
@@ -91,3 +81,9 @@ function toggle() {
 minimize.forEach((item) => {
 item.addEventListener('click', toggle);
 });
+
+
+
+
+
+
