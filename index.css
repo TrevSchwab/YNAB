@@ -228,6 +228,11 @@ h2 {
   width: 100%;
   position: absolute;
   bottom: 0;
+  border-color: none;
+}
+
+#user-id.borderColor {
+  border-color: blue;
 }
 
 .sub-header {
