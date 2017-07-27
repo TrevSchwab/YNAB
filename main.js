@@ -7,11 +7,13 @@ const emailButton = document.querySelector('#user-id');
 
 
 function highlight() {
-  if (this.click) {
+  if (this.style.borderColor="none") {
     this.style.borderColor="blue";
+  } else {
+    this.style.borderColor="none";
   }
 }
-emailButton.addEventListener('mousemove', highlight);
+emailButton.addEventListener('mouseover', highlight);
 
 
 
