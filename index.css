@@ -223,6 +223,14 @@ h2 {
 	float: right;
 }
 
+.sub-menu {
+  display: none;
+}
+
+.sub-menu.open {
+
+}
+
 #user-id {
 	background-color: #1f8ca7;
   width: 100%;
